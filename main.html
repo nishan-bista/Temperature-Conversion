@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Temperature conversion Program using Javascript.</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
 
+    <div class="container">
+      <div class="panel-one">
+        <div class="content-one">
+          <label for="">Enter °C / °F, You want to convert : </label>
+        </div>
+      </div>
 
-    <label for="">Enter °C / °F, You want to convert : </label><br>
-    <input type="text" id="user_input"><br>
-    <input type="radio" id="cbutton" name="unit">
-    <label for="">Celsius</label><br>
-    <input type="radio" id="fbutton" name="unit">
-    <label for="" id="fbutton">Fahrenheit</label><br><br>
-    <button type="button" id="submit_button">Submit</button><br>
-    <label for="" id="user_output"></label>
+      <div class="panel-two">
+        <div class="user-input">
+          <input type="text" id="user_input" />
+        </div>
+      </div>
 
+      <div class="radio-body">
+        <div class="options">
+          <div class="option-one effect-one">
+            <input type="radio" id="cbutton" name="unit" />
+            <label for="">Celsius</label>
+          </div>
 
+          <div class="option-two effect-one">
+            <input type="radio" id="fbutton" name="unit" />
+            <label for="" id="fbutton">Fahrenheit</label>
+          </div>
+        </div>
+      </div>
 
+      <div class="submit-button">
+        <div class="button">
+          <button type="button" id="submit_button">Submit</button>
+        </div>
+      </div>
+      <div class="output-panel">
+        <div class="output">
+          <label for="" id="user_output"></label>
+        </div>
+      </div>
+    </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

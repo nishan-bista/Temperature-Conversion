@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8edff;
+}
+
+.container {
+  border-radius: 1rem;
+  background-color: #3d3b40;
+  height: 500px;
+  width: 500px;
+}
+.panel-one {
+  height: 3rem;
+  border-bottom: 2px solid #bfcfe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8edff;
+}
+.panel-two {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.user-input {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.user-input input {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  border: none;
+  text-align: center;
+}
+
+.radio-body {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.options:hover{
+    border: 3px solid red;
+    
+}
+
+.options {
+    margin-top: 0.8rem;
+  border: 3px solid #fff5b8;
+  border-radius: 0.8rem;
+  height: 4rem;
+  width: 6.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  color: #0c134f;
+  
+}
+.effect-one:hover{
+    background-color: #c8ffd400;
+    color: white;
+
+}
+.option-one {
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+
+  height: 50%;
+  width: 100%;
+
+  background-color: #acbcff;
+}
+.option-two {
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+
+  height: 50%;
+  width: 100%;
+
+  background-color: #aee2ff;
+}
+#cbutton {
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+}
+#fbutton {
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+}
+
+.submit-button{
+    margin-top:1rem ;
+    height:4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 10rem;
+    
+}
+.button button{
+    height:2.5rem ;
+    width:5rem ;
+    
+}
+.output-panel{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 20%;
+    width: 60%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 6rem;
+    color: #3d3b40;
+    font-size: 1.5rem;
+}
